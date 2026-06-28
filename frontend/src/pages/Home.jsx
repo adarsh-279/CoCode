@@ -33,7 +33,7 @@ const Home = () => {
     if (!username || !editor) return;
 
     const provider = new SocketIOProvider(
-      "http://localhost:8000",
+      "/",
       "monaco",
       ydoc,
       {
